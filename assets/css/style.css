@@ -14,6 +14,7 @@ body {
 	position: relative;
 	padding: 0px;
     margin-bottom: 20px;
+	border-bottom: 1px solid #cccccc;
 }
 
 /*Name on NavBar*/
@@ -42,18 +43,30 @@ body {
 
 .tab {
     float: left;
+    padding-top: 10px;
 }
 
 .tab a {
     display: block;
-    padding: 8px;
+    padding-right: 15px;
+    padding-left: 15px;
     color: #777777;
     text-decoration: none;
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+
 }
 
+.aboutlink {
+	border-right: 1px solid #dddddd;
+}
 
+.portfoliolink {
+	border-right: 1px solid #dddddd;	
+}
 
+a:hover {
+	color: purple;
+}
 /*Left Section*/
 .main {
 	width: 640px;
@@ -63,7 +76,7 @@ body {
     margin-right: 10px;
     margin-bottom: 20px;
 	padding: 5px 10px 0px 10px;
-
+	border: 1px solid #dddddd;
 
 }
 
@@ -74,9 +87,23 @@ body {
 	color: #4aaaa5;	
 	padding: 5px 0px 20px 0px;
 	margin: 15px;
-	border-bottom: 3px solid #dddddd;
+	border-bottom: 2px solid #dddddd;
 
 }
+
+/*Contact Form*/
+.form {
+	padding: 0px 20px 20px 0px;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	line-height: 200%;
+	color: #777777;
+}
+
+.nameform {
+	padding: 5px;
+	color: #777777;	
+}
+
 
 /*Portfolio images and captions*/
 .portfolio {
@@ -99,7 +126,7 @@ body {
 }
 
 img{
-	width:280px; 
+	width:275px; 
 	height:190px;
 }
 
@@ -108,13 +135,15 @@ img{
 #me {
 	float: left;
 	margin: 10px;
-	width: 25%;
+	width: 200px;
+	height: 200px;
 }
 
 /*Paragraph*/
 p {
-	padding: 20px;
+	padding: 0px 20px 20px 0px;
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	line-height: 200%;
 }
 
 
@@ -127,6 +156,7 @@ p {
     float: left;  
     margin-left: 20px; 	
     padding: 10px 23px 10px 23px;
+    border: 1px solid #dddddd;
 
 }
 
